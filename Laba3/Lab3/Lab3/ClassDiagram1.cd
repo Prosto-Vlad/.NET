@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab3.Driver">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Lab3.Driver.Category" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Driver.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.Passenger">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Lab3.Passenger.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Passenger.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.BussBuilder" BaseTypeListCollapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAQAAIAKAAIAAAAAAAAIAAAAAIIAAAAA=</HashCode>
+      <FileName>TransportBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Venich" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Lab3.TaxiBuilder" BaseTypeListCollapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAQAAIAKAAIAAAAAAAAIAAAAgIIAAAAA=</HashCode>
+      <FileName>TransportBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Venich" />
+    </ShowAsAssociation>
+    <Lollipop Position="1.183" Collapsed="true" />
+  </Class>
+  <Class Name="Lab3.Venich">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Lab3.Venich.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Venich.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAQAAAAAAAAAgAACAAABgAAAAQAICAAEIAA=</HashCode>
+      <FileName>Venich.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Driver1" />
+      <Property Name="Passenger" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Lab3.TransportBuilder">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAQAAAAAAAIAAAAAAAAIAAAAAIIAAAAA=</HashCode>
+      <FileName>TransportBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

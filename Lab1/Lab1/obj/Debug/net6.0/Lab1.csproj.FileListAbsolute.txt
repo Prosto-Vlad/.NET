@@ -1,0 +1,30 @@
+D:\Git\.NET_labs\Lab1\Lab1\bin\Debug\net6.0\Lab1.exe
+D:\Git\.NET_labs\Lab1\Lab1\bin\Debug\net6.0\Lab1.deps.json
+D:\Git\.NET_labs\Lab1\Lab1\bin\Debug\net6.0\Lab1.runtimeconfig.json
+D:\Git\.NET_labs\Lab1\Lab1\bin\Debug\net6.0\Lab1.dll
+D:\Git\.NET_labs\Lab1\Lab1\bin\Debug\net6.0\Lab1.pdb
+D:\Git\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.csproj.AssemblyReference.cache
+D:\Git\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfoInputs.cache
+D:\Git\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfo.cs
+D:\Git\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.csproj.CoreCompileInputs.cache
+D:\Git\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.dll
+D:\Git\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\refint\Lab1.dll
+D:\Git\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.pdb
+D:\Git\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.genruntimeconfig.cache
+D:\Git\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\ref\Lab1.dll
+D:\Visual Projects\.NET_labs\Lab1\Lab1\bin\Debug\net6.0\Lab1.exe
+D:\Visual Projects\.NET_labs\Lab1\Lab1\bin\Debug\net6.0\Lab1.deps.json
+D:\Visual Projects\.NET_labs\Lab1\Lab1\bin\Debug\net6.0\Lab1.runtimeconfig.json
+D:\Visual Projects\.NET_labs\Lab1\Lab1\bin\Debug\net6.0\Lab1.dll
+D:\Visual Projects\.NET_labs\Lab1\Lab1\bin\Debug\net6.0\Lab1.pdb
+D:\Visual Projects\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.csproj.AssemblyReference.cache
+D:\Visual Projects\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Projects\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfoInputs.cache
+D:\Visual Projects\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfo.cs
+D:\Visual Projects\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.csproj.CoreCompileInputs.cache
+D:\Visual Projects\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.dll
+D:\Visual Projects\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\refint\Lab1.dll
+D:\Visual Projects\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.pdb
+D:\Visual Projects\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\Lab1.genruntimeconfig.cache
+D:\Visual Projects\.NET_labs\Lab1\Lab1\obj\Debug\net6.0\ref\Lab1.dll

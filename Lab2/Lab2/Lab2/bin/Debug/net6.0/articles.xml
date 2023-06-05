@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Article>
+    <Article>
+      <ID>1</ID>
+      <name>The power of positive thinking</name>
+      <ID_magazine>1</ID_magazine>
+      <input_data>2020-07-14T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>2</ID>
+      <name>How to stay motivated</name>
+      <ID_magazine>1</ID_magazine>
+      <input_data>2020-06-06T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>3</ID>
+      <name>The importance of staying organized</name>
+      <ID_magazine>2</ID_magazine>
+      <input_data>2020-05-13T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>4</ID>
+      <name>Leadership and its impact on success</name>
+      <ID_magazine>2</ID_magazine>
+      <input_data>2020-04-20T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>5</ID>
+      <name>The power of networking</name>
+      <ID_magazine>2</ID_magazine>
+      <input_data>2020-03-29T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>6</ID>
+      <name>The importance of time management</name>
+      <ID_magazine>3</ID_magazine>
+      <input_data>2020-02-17T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>7</ID>
+      <name>The power of goal setting</name>
+      <ID_magazine>4</ID_magazine>
+      <input_data>2020-01-13T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>8</ID>
+      <name>The importance of resilience</name>
+      <ID_magazine>5</ID_magazine>
+      <input_data>2019-12-20T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>9</ID>
+      <name>Problem-solving for success</name>
+      <ID_magazine>5</ID_magazine>
+      <input_data>2019-11-29T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>10</ID>
+      <name>Creativity and its importance</name>
+      <ID_magazine>6</ID_magazine>
+      <input_data>2019-10-17T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>11</ID>
+      <name>History of Data Science</name>
+      <ID_magazine>6</ID_magazine>
+      <input_data>2020-07-15T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>12</ID>
+      <name>The Benefits of Data Science</name>
+      <ID_magazine>7</ID_magazine>
+      <input_data>2020-08-20T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>13</ID>
+      <name>Data Science for Business</name>
+      <ID_magazine>7</ID_magazine>
+      <input_data>2020-09-10T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>14</ID>
+      <name>Data Science and Machine Learning</name>
+      <ID_magazine>8</ID_magazine>
+      <input_data>2020-10-12T00:00:00</input_data>
+    </Article>
+    <Article>
+      <ID>15</ID>
+      <name>Data Science and Artificial Intelligence</name>
+      <ID_magazine>8</ID_magazine>
+      <input_data>2020-11-05T00:00:00</input_data>
+    </Article>
+  </Article>
+  <Author>
+    <Author>
+      <ID>1</ID>
+      <name>John</name>
+      <surname>Smit</surname>
+      <patronymic>Thompson</patronymic>
+      <organization>Microsoft</organization>
+    </Author>
+    <Author>
+      <ID>2</ID>
+      <name>Fiona</name>
+      <surname>Harris</surname>
+      <patronymic>Christian</patronymic>
+      <organization>Apple</organization>
+    </Author>
+    <Author>
+      <ID>3</ID>
+      <name>Liam</name>
+      <surname>Wilson</surname>
+      <patronymic>Thomas</patronymic>
+      <organization>Apple</organization>
+    </Author>
+    <Author>
+      <ID>4</ID>
+      <name>Olivia</name>
+      <surname>Hall</surname>
+      <patronymic>Oliver</patronymic>
+      <organization>McDonald's</organization>
+    </Author>
+    <Author>
+      <ID>5</ID>
+      <name>Noah</name>
+      <surname>Taylor</surname>
+      <patronymic>William</patronymic>
+      <organization>Google</organization>
+    </Author>
+    <Author>
+      <ID>6</ID>
+      <name>Emma</name>
+      <surname>White</surname>
+      <patronymic>David</patronymic>
+      <organization>Google</organization>
+    </Author>
+    <Author>
+      <ID>7</ID>
+      <name>Mason</name>
+      <surname>Martin</surname>
+      <patronymic>Matthew</patronymic>
+      <organization>IBM</organization>
+    </Author>
+    <Author>
+      <ID>8</ID>
+      <name>Ava</name>
+      <surname>Thompson</surname>
+      <patronymic>Michael</patronymic>
+      <organization>Microsoft</organization>
+    </Author>
+    <Author>
+      <ID>9</ID>
+      <name>Jacob</name>
+      <surname>Warcia</surname>
+      <patronymic>Joseph</patronymic>
+      <organization>Google</organization>
+    </Author>
+    <Author>
+      <ID>10</ID>
+      <name>Sophia</name>
+      <surname>Robinson</surname>
+      <patronymic>George</patronymic>
+      <organization>Google</organization>
+    </Author>
+  </Author>
+  <Magazine>
+    <Magazine>
+      <ID>1</ID>
+      <name>The New York Times</name>
+      <periodicity>Daily</periodicity>
+      <release_date>2017-12-31T22:00:00Z</release_date>
+      <Circulation>1000000</Circulation>
+    </Magazine>
+    <Magazine>
+      <ID>2</ID>
+      <name>The Wall Street Journal</name>
+      <periodicity>Daily</periodicity>
+      <release_date>2016-01-31T22:00:00Z</release_date>
+      <Circulation>500000</Circulation>
+    </Magazine>
+    <Magazine>
+      <ID>3</ID>
+      <name>The Washington Post</name>
+      <periodicity>Daily</periodicity>
+      <release_date>2018-02-28T22:00:00Z</release_date>
+      <Circulation>700000</Circulation>
+    </Magazine>
+    <Magazine>
+      <ID>4</ID>
+      <name>USA Today</name>
+      <periodicity>Daily</periodicity>
+      <release_date>2019-03-31T21:00:00Z</release_date>
+      <Circulation>800000</Circulation>
+    </Magazine>
+    <Magazine>
+      <ID>5</ID>
+      <name>The Times</name>
+      <periodicity>Weekly</periodicity>
+      <release_date>2015-04-30T21:00:00Z</release_date>
+      <Circulation>100000</Circulation>
+    </Magazine>
+    <Magazine>
+      <ID>6</ID>
+      <name>The Economist</name>
+      <periodicity>Weekly</periodicity>
+      <release_date>2011-05-31T21:00:00Z</release_date>
+      <Circulation>200000</Circulation>
+    </Magazine>
+    <Magazine>
+      <ID>7</ID>
+      <name>National Geographic</name>
+      <periodicity>Monthly</periodicity>
+      <release_date>2017-06-30T21:00:00Z</release_date>
+      <Circulation>250000</Circulation>
+    </Magazine>
+    <Magazine>
+      <ID>8</ID>
+      <name>Time</name>
+      <periodicity>Monthly</periodicity>
+      <release_date>2015-07-31T21:00:00Z</release_date>
+      <Circulation>300000</Circulation>
+    </Magazine>
+  </Magazine>
+  <DataLink>
+    <DataLink>
+      <ID1>1</ID1>
+      <ID2>1</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>1</ID1>
+      <ID2>2</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>3</ID1>
+      <ID2>2</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>1</ID1>
+      <ID2>3</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>3</ID1>
+      <ID2>3</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>2</ID1>
+      <ID2>4</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>3</ID1>
+      <ID2>3</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>2</ID1>
+      <ID2>5</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>2</ID1>
+      <ID2>6</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>2</ID1>
+      <ID2>7</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>3</ID1>
+      <ID2>8</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>3</ID1>
+      <ID2>9</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>4</ID1>
+      <ID2>10</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>9</ID1>
+      <ID2>10</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>5</ID1>
+      <ID2>11</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>10</ID1>
+      <ID2>12</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>6</ID1>
+      <ID2>12</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>7</ID1>
+      <ID2>13</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>8</ID1>
+      <ID2>14</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>8</ID1>
+      <ID2>15</ID2>
+    </DataLink>
+    <DataLink>
+      <ID1>7</ID1>
+      <ID2>15</ID2>
+    </DataLink>
+  </DataLink>
+  <Publisher>
+    <Publisher>
+      <ID>1</ID>
+      <name>John Doe</name>
+      <city>New York</city>
+      <address>123 Main Street</address>
+      <Magazine>
+        <Magazine>
+          <ID>1</ID>
+          <name>The New York Times</name>
+          <periodicity>Daily</periodicity>
+          <release_date>2017-12-31T22:00:00Z</release_date>
+          <Circulation>1000000</Circulation>
+        </Magazine>
+        <Magazine>
+          <ID>2</ID>
+          <name>The Wall Street Journal</name>
+          <periodicity>Daily</periodicity>
+          <release_date>2016-01-31T22:00:00Z</release_date>
+          <Circulation>500000</Circulation>
+        </Magazine>
+      </Magazine>
+    </Publisher>
+    <Publisher>
+      <ID>2</ID>
+      <name>Jane Doe</name>
+      <city>Los Angeles</city>
+      <address>456 Broadway Avenue</address>
+      <Magazine>
+        <Magazine>
+          <ID>3</ID>
+          <name>The Washington Post</name>
+          <periodicity>Daily</periodicity>
+          <release_date>2018-02-28T22:00:00Z</release_date>
+          <Circulation>700000</Circulation>
+        </Magazine>
+        <Magazine>
+          <ID>4</ID>
+          <name>USA Today</name>
+          <periodicity>Daily</periodicity>
+          <release_date>2019-03-31T21:00:00Z</release_date>
+          <Circulation>800000</Circulation>
+        </Magazine>
+        <Magazine>
+          <ID>5</ID>
+          <name>The Times</name>
+          <periodicity>Weekly</periodicity>
+          <release_date>2015-04-30T21:00:00Z</release_date>
+          <Circulation>100000</Circulation>
+        </Magazine>
+      </Magazine>
+    </Publisher>
+    <Publisher>
+      <ID>3</ID>
+      <name>Luke Smith</name>
+      <city>New York</city>
+      <address>789 Houston Street</address>
+      <Magazine>
+        <Magazine>
+          <ID>6</ID>
+          <name>The Economist</name>
+          <periodicity>Weekly</periodicity>
+          <release_date>2011-05-31T21:00:00Z</release_date>
+          <Circulation>200000</Circulation>
+        </Magazine>
+      </Magazine>
+    </Publisher>
+    <Publisher>
+      <ID>4</ID>
+      <name>Sarah Williams</name>
+      <city>Chicago</city>
+      <address>111 W Chicago Avenue</address>
+      <Magazine>
+        <Magazine>
+          <ID>7</ID>
+          <name>National Geographic</name>
+          <periodicity>Monthly</periodicity>
+          <release_date>2017-06-30T21:00:00Z</release_date>
+          <Circulation>250000</Circulation>
+        </Magazine>
+      </Magazine>
+    </Publisher>
+    <Publisher>
+      <ID>5</ID>
+      <name>Joshua Miller</name>
+      <city>Philadelphia</city>
+      <address>222 S Broad Street</address>
+      <Magazine>
+        <Magazine>
+          <ID>8</ID>
+          <name>Time</name>
+          <periodicity>Monthly</periodicity>
+          <release_date>2015-07-31T21:00:00Z</release_date>
+          <Circulation>300000</Circulation>
+        </Magazine>
+      </Magazine>
+    </Publisher>
+  </Publisher>
+</Container>
