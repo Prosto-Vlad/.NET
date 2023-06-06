@@ -21,13 +21,6 @@ namespace Lab3
     {
         Venich res = new Venich();
 
-        internal Venich Venich
-        {
-            get => default;
-            set
-            {
-            }
-        }
          
         public void CreateType()
         {
@@ -76,13 +69,6 @@ namespace Lab3
     {
         Venich res = new Venich();
 
-        internal Venich Venich
-        {
-            get => default;
-            set
-            {
-            }
-        }
 
         public void CreateType()
         {

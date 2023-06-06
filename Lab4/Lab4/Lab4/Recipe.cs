@@ -6,37 +6,66 @@ using System.Threading.Tasks;
 
 namespace Lab4
 {
-    public class Recipe
+    public abstract class IRecipe
+    {
+        public abstract string GetDoctorAssigment();
+        public abstract string GetStringExpirationDate();
+        public abstract DateTime GetExpirationDate();
+    }
+    public class Recipe : IRecipe
     {
         private string doctorAssignment;
         private DateTime expirationDate;
+
         public Recipe(string doctorAssignment, DateTime expirationDate)
         {
             this.doctorAssignment = doctorAssignment;
             this.expirationDate = expirationDate;
         }
-        public  string GetDoctorAssigment()
+        
+        public override string GetDoctorAssigment()
         {
             return doctorAssignment;
         }
 
-        public  DateTime GetExpirationDate()
+        public override string GetStringExpirationDate()
+        {
+            return expirationDate.ToShortDateString();
+        }
+        public override DateTime GetExpirationDate()
         {
             return expirationDate;
         }
     }
-    public abstract class Decorator : Recipe
+    public abstract class RecipeDecorator : IRecipe
     {
-        protected Recipe recipe;
-        public Decorator(DateTime newdate, Recipe rec):base(rec.GetDoctorAssigment(), newdate)
+        protected IRecipe recipe;
+
+        public  RecipeDecorator(IRecipe recipe)
         {
-            recipe = rec;
+            this.recipe = recipe;
         }
     }
-    public class ExtendRecipe : Decorator
+    public class ExtendRecipe : RecipeDecorator
     {
-        public ExtendRecipe(DateTime newdate, Recipe recipe) : base(newdate, recipe)
+        private DateTime extendedDate;
+
+        public ExtendRecipe(IRecipe recipe, DateTime extendedDate) : base(recipe)
         {
+            this.extendedDate = extendedDate;
+        }
+        public override string GetDoctorAssigment()
+        {
+            return recipe.GetDoctorAssigment();
+        }
+        public override string GetStringExpirationDate()
+        {
+            return $"{GetExpirationDate().ToShortDateString()} (Extended)";
+        }
+
+        public override DateTime GetExpirationDate()
+        {
+            return extendedDate;
         }
     }
 }

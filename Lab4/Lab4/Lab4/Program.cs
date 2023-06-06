@@ -14,18 +14,36 @@ namespace Lab4
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
-            Recipe rec = new Recipe("temptemptmeptmep", new DateTime(2000,3,2));
-            Console.WriteLine(rec.GetDoctorAssigment() + " " + rec.GetExpirationDate().ToString());
+            Console.OutputEncoding = UTF8Encoding.UTF8;
 
-            rec = new ExtendRecipe(DateTime.Now, rec);
-            Console.WriteLine(rec.GetDoctorAssigment() + " " + rec.GetExpirationDate().ToString());
-
-            rec = new ExtendRecipe(new DateTime(2043, 3, 2), rec);
-            Console.WriteLine(rec.GetDoctorAssigment() + " " + rec.GetExpirationDate().ToString());
-
-            rec = new ExtendRecipe(new DateTime(2234, 3, 2), rec);
-            Console.WriteLine(rec.GetDoctorAssigment() + " " + rec.GetExpirationDate().ToString());
+            Console.WriteLine("Введіть рецепт:");
+            string rec_input;
+            rec_input = Console.ReadLine();
+            Console.WriteLine("Введіть термін дії у форматі дд-мм-рррр:");
+            DateTime date_input;
+            date_input = DateTime.Parse(Console.ReadLine());
+            IRecipe rec = new Recipe(rec_input, date_input);
+            Console.WriteLine("Текст рецепта: " + rec.GetDoctorAssigment());
+            Console.WriteLine("Термін дій: " + rec.GetStringExpirationDate());
+            while (true)
+            {
+                Console.WriteLine("Для вихода уведіть E");
+                Console.WriteLine("Введіть новий термін дії у форматі дд-мм-рррр:");
+                string temp = Console.ReadLine();
+                if(temp == "E")
+                    break;
+                date_input = DateTime.Parse(temp);
+                if (rec.GetExpirationDate() > date_input)
+                {
+                    Console.WriteLine("Новий термін дії не дійсний!");
+                }
+                else
+                {
+                    rec = new ExtendRecipe(rec, date_input);
+                    Console.WriteLine("Текст рецепта: " + rec.GetDoctorAssigment());
+                    Console.WriteLine("Новий термін дій: " + rec.GetStringExpirationDate() + "\n");
+                }
+            }
         }
 
     }
