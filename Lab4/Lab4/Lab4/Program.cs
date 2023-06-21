@@ -25,24 +25,20 @@ namespace Lab4
             IRecipe rec = new Recipe(rec_input, date_input);
             Console.WriteLine("Текст рецепта: " + rec.GetDoctorAssigment());
             Console.WriteLine("Термін дій: " + rec.GetStringExpirationDate());
-            while (true)
+
+
+            Console.WriteLine("Введіть новий термін дії у форматі дд-мм-рррр:");
+            string temp = Console.ReadLine();
+            date_input = DateTime.Parse(temp);
+            if (rec.GetExpirationDate() > date_input)
             {
-                Console.WriteLine("Для вихода уведіть E");
-                Console.WriteLine("Введіть новий термін дії у форматі дд-мм-рррр:");
-                string temp = Console.ReadLine();
-                if(temp == "E")
-                    break;
-                date_input = DateTime.Parse(temp);
-                if (rec.GetExpirationDate() > date_input)
-                {
-                    Console.WriteLine("Новий термін дії не дійсний!");
-                }
-                else
-                {
-                    rec = new ExtendRecipe(rec, date_input);
-                    Console.WriteLine("Текст рецепта: " + rec.GetDoctorAssigment());
-                    Console.WriteLine("Новий термін дій: " + rec.GetStringExpirationDate() + "\n");
-                }
+                Console.WriteLine("Новий термін дії не дійсний!");
+            }
+            else
+            {
+                rec = new ExtendRecipe(rec, date_input);
+                Console.WriteLine("Текст рецепта: " + rec.GetDoctorAssigment());
+                Console.WriteLine("Новий термін дій: " + rec.GetStringExpirationDate() + "\n");
             }
         }
 
